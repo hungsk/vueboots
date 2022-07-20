@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 import Home from './components/Home.vue' 
 import About from './components/About.vue'
+import Bootstrap from './components/Bootstrap.vue'
 
 export default createRouter({ 
   history : createWebHistory(), 
@@ -15,6 +16,11 @@ export default createRouter({
       path: '/about', 
       name: 'about', 
       component: About 
+    }, 
+    { 
+      path: '/bootstrap', 
+      name: 'bootstrap', 
+      component: Bootstrap 
     } 
   ] 
 }) 
